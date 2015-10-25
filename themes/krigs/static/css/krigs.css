@@ -29,7 +29,7 @@ body {
 }
 
 #container {
-    margin-top: 18rem;
+    margin-top: 15rem;
     padding-top: 0px;
     width: 100%;
 }
@@ -41,7 +41,7 @@ body {
     text-align: justify;
 }
 
-h1 {
+#omega h1 {
     margin-top: 6rem;
     line-height: 1.8rem;
     font-weight: bold;
@@ -49,12 +49,13 @@ h1 {
 }
 
 h2 {
-    margin-top: 4rem;
+    margin-top: 1rem;
     line-height: 1.8rem;
 }
 
 .post h1 {
     font-size: 1.6rem;
+    color: #f9690e;
 }
 
 a {
@@ -160,4 +161,64 @@ code {
 
 .quote .quotesource:before {
     content:"\2014\00A0";
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.pw-container {
+    position: relative;
+    padding: 45px 15px 15px;
+    margin: 0 -15px 15px;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.pw-container:after {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #959595;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    content: "PWGEN";
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.muted {
+    color: #999;
 }
