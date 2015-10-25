@@ -157,6 +157,8 @@ body {
 
 #body-text {
     width: 600px;
+    padding-left: 4px;
+    padding-right: 4px;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
