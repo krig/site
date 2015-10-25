@@ -202,6 +202,7 @@ a:hover {
 
 .postdate {
     margin-top: -1rem;
+    margin-bottom: 2rem;
     font-size: 0.8rem;
     padding-left: 1rem;
     color: #a8a7b3;
@@ -301,11 +302,12 @@ label {
 
 .pw-container {
     position: relative;
-    padding: 45px 15px 15px;
-    margin: 0 -15px 15px;
+    padding: 45px 15px;
+    margin: 0 -15px -15px;
     border-color: #ddd;
     border-style: solid;
     border-width: 1px;
+    border-radius: 6px;
 }
 
 .pw-container:after {
@@ -313,11 +315,9 @@ label {
     top: 15px;
     left: 15px;
     font-size: 0.8em;
-    font-weight: 700;
-    color: #959595;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    content: "PWGEN";
+    color: #f9690e;
+    font-family: FontAwesome;
+    content: "\f13e";
 }
 
 .form-control {
@@ -341,4 +341,23 @@ label {
 
 .muted {
     color: #999;
+}
+
+.postlist {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.postlist .entry {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding: 1px;
+}
+
+.postlist .date {
+    font-size: 0.8rem;
+    display: inline-block;
+    color: #a8a7b3;
+    float: right;
 }

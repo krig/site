@@ -3,12 +3,15 @@
 
 <div id="body-text">
 
-  {{ range .Data.Pages }}
-  <article class="post">
-    <h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
-    <div class="postdate">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
-  </article>
-  {{ end }}
+  <ul class="fa-ul postlist">
+    {{ range .Data.Pages }}
+    <li class="postlist entry">
+      <i class="fa-li fa fa-caret-right muted"></i>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <time class="date">{{ .Date.Format "Jan 2, 2006" }}</time>
+    </li>
+    {{ end }}
+  </ul>
 
 </div>
 
