@@ -157,6 +157,12 @@ body {
     width: 100%;
 }
 
+#pw-outer-container {
+    margin-top: 0.5rem;
+    padding-top: 0px;
+    width: 100%;
+}
+
 #body-text {
     width: 592px;
     padding-left: 4px;
