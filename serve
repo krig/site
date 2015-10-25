@@ -1,0 +1,2 @@
+#!/bin/sh
+hugo server --theme=krigs --buildDrafts --watch --destination="./build"

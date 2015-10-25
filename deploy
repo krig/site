@@ -1,0 +1,10 @@
+#!/bin/sh
+now=$(date --iso=seconds)
+stats=$(hugo --theme=krigs -d "./public/")
+cd public || exit 1
+git add -A
+git commit -F - <<EOF
+Site rebuild ${now}
+
+${stats}
+EOF
