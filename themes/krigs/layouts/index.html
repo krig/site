@@ -8,7 +8,9 @@
     <li class="postlist entry">
       <i class="fa-li fa fa-caret-right muted"></i>
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      <time class="date">{{ .Date.Format "Jan 2, 2006" }}</time>
+      <div class="date-right">
+        <time class="date">{{ .Date.Format "Jan 2, 2006" }}</time>
+      </div>
     </li>
     {{ end }}
   </ul>

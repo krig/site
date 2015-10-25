@@ -357,7 +357,11 @@ label {
 
 .postlist .date {
     font-size: 0.8rem;
-    display: inline-block;
     color: #a8a7b3;
+}
+
+.postlist .date-right {
     float: right;
+    display: table-cell;
+    vertical-align: middle;
 }
