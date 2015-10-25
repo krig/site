@@ -1,0 +1,163 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #F5F5F5;
+    color: #434244;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
+
+#alpha {
+    position: absolute;
+    top: 0px;
+    background: #ecf0f1;
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 100%;
+}
+
+#omega {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#omega h1 {
+    font-size: 3rem;
+}
+
+#container {
+    margin-top: 18rem;
+    padding-top: 0px;
+    width: 100%;
+}
+
+#body-text {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+h1 {
+    margin-top: 6rem;
+    line-height: 1.8rem;
+    font-weight: bold;
+    color: #f9690e;
+}
+
+h2 {
+    margin-top: 4rem;
+    line-height: 1.8rem;
+}
+
+.post h1 {
+    font-size: 1.6rem;
+}
+
+a {
+    color: #E35C2F;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:active  {
+    color: #41D6B3;      
+}
+a:visited {
+    color: #E35C2F;
+}
+a:hover {
+    color: #E35C2F;      
+    border-bottom: 2px dashed #E35C2F;
+}
+
+.parahead {
+    margin-left: 1em;
+    color: #222;
+}
+
+.postdate {
+    margin-top: -1rem;
+    font-size: 0.6rem;
+    padding-left: 1rem;
+    color: #a8a7b3;
+    border-top: 1px solid #ddd;
+}
+
+pre {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    margin-top: 2rem;
+    margin-left: 1.2rem;
+    padding-left: 1rem;
+    border-left: 1px solid #dfdfdf;
+}
+
+code {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width: 620px) {
+    #omega {
+        width: 360px;
+    }
+    #body-text {
+        width: 360px;
+    }
+    pre {
+        margin-left: 0rem;
+    }
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.fourohfour {
+    font-size: 128px;
+    color: #bcbcbc;
+    text-align: center;
+}
+
+.pull-right {
+    float: right;
+    padding: 0.5em;
+}
+
+.pull-left {
+    float: left;
+    padding: 0.5em;
+}
+
+.quote blockquote {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.quote blockquote:before {
+    content:open-quote;
+    letter-spacing:0em;
+}
+
+.quote blockquote:after {
+    content:close-quote;
+    margin-left:0em;
+}
+
+.quote .quotesource {
+    margin: 10px 0 0;
+    position: relative;
+    padding-right: 4em;
+    color: #999999;
+    text-align: right;
+}
+
+.quote .quotesource:before {
+    content:"\2014\00A0";
+}

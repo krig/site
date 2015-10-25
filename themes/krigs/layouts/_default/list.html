@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+
+<div id="body-text">
+  <ul class="posts">
+    {{ range .Data.Pages }}
+    <li>
+      <span><a href="{{ .Permalink }}">{{ .Title }}</a> <time class="pull-right posts">{{ .Date.Format "Mon, Jan 2, 2006" }}</time></span>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+
+{{ partial "footer.html" . }}
