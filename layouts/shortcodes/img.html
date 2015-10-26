@@ -1,3 +1,3 @@
 <div {{ with .Get "align" }} class="pull-{{ . }}" {{ else }} class="centered" {{ end }}>
-  <img src="{{ .Get "src" }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"{{ end }}>
+  <img src="{{ .Get "src" }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"{{ end }} {{if .Get "width"}}width="{{.Get "width"}}"{{end}} {{if .Get "height"}}height="{{.Get "height"}}"{{end}}>
 </div>

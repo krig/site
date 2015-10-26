@@ -4,7 +4,7 @@ date: 2015-10-24T20:14:17+02:00
 draft: false
 ---
 
-{{< img src="/img/self_with_cat.png" title="self" >}}
+{{< img src="/img/self_with_cat.png" title="self" width="240px" height="260px" alt="self" >}}
 
 This is the personal website of __Kristoffer Gr&ouml;nlund__. Unless you
 know who that is, nothing on this page is likely to interest you. On
