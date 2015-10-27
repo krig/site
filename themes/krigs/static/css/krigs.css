@@ -6,7 +6,7 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
   font-size-adjust: 0.5;
 }
 
-#page {
+#container {
   font-size: 1em;
   /* equivalent to 16px */
   line-height: 1.25;
@@ -14,7 +14,7 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
 }
 
 @media (min-width: 43.75em) {
-  #page {
+  #container {
     font-size: 1em;
     /* equivalent to 16px */
     line-height: 1.375;
