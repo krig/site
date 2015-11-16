@@ -126,7 +126,7 @@ body {
     margin: 0px;
     background: #F5F5F5;
     color: #434244;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Latin Modern Mono', monospace;
 }
 
 #alpha {
@@ -170,6 +170,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
+    hyphens: auto;
 }
 
 #omega h1 {
@@ -220,7 +221,7 @@ a:hover {
 }
 
 pre {
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Latin Modern Mono', monospace;
     font-size: 0.8rem;
     line-height: 1.2rem;
     margin-top: 2rem;
@@ -230,7 +231,7 @@ pre {
 }
 
 code {
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Latin Modern Mono', monospace;
     font-size: 0.8rem;
 }
 
@@ -243,6 +244,15 @@ code {
     }
     pre {
         margin-left: 0rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #omega {
+        width: 800px;
+    }
+    #body-text {
+        width: 800px;
     }
 }
 
