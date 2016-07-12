@@ -21,5 +21,4 @@ If, after all, you do know me, it may be from such features as
 This site is not a regular blog. I've tried to make that happen, but
 lets face it. Blogs are dead. I have a [tumblr](http://koru.se), feel
 free to read that -- but to be honest, I've given up on the tumblr as
-well. I'm also on twitter as
-[@isallmaroon](https://twitter.com/isallmaroon).
+well.
