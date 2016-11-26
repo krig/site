@@ -22,5 +22,5 @@ This site is not a regular blog. I have tried to make that happen, but
 let's face it. Blogs are dead.
 
 I do have a [tumblr](http://koru.se) which I update roughly once per
-year, and a [twitter](https://twitter.com/isallmaroon) account which I
+year, and a [twitter](https://twitter.com/iskrig) account which I
 can't seem to get rid of.
