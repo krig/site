@@ -1,5 +1,5 @@
 ---
-title: about
+title: About
 date: 2015-10-24T20:14:17+02:00
 draft: false
 ---

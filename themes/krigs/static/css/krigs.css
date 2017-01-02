@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:500&subset=latin-ext');
+
 body {
   font-size: 100%;
 }
@@ -126,7 +128,7 @@ body {
     margin: 0px;
     background: #F5F5F5;
     color: #434244;
-    font-family: 'Latin Modern Mono', monospace;
+    font-family: 'Dosis', sans-serif;
 }
 
 #alpha {
@@ -148,6 +150,7 @@ body {
 }
 
 #omega h1 {
+    font-family: 'Dosis', sans-serif;
     font-size: 3em;
 }
 
@@ -176,8 +179,15 @@ body {
 #omega h1 {
     margin-top: 6rem;
     line-height: 1.8rem;
-    font-weight: bold;
-    color: #f9690e;
+}
+
+#omega a {
+    color: #ffffff;
+}
+
+#omega a:hover {
+    color: #2f2f2f;
+    border-bottom: none;
 }
 
 h2 {
@@ -186,14 +196,13 @@ h2 {
 }
 
 .post h1 {
-    font-size: 1.6rem;
-    color: #f9690e;
+    font-size: 1.2rem;
+    color: #2f2f2f;
 }
 
 a {
     color: #E35C2F;
     text-decoration: none;
-    font-weight: bold;
 }
 a:active  {
     color: #41D6B3;      
@@ -212,7 +221,7 @@ a:hover {
 }
 
 .postdate {
-    margin-top: -1rem;
+    margin-top: -0.6rem;
     margin-bottom: 2rem;
     font-size: 0.8rem;
     padding-left: 1rem;
@@ -221,7 +230,7 @@ a:hover {
 }
 
 pre {
-    font-family: 'Latin Modern Mono', monospace;
+    font-family: 'Dosis', sans-serif;
     font-size: 0.8rem;
     line-height: 1.2rem;
     margin-top: 2rem;
@@ -231,7 +240,7 @@ pre {
 }
 
 code {
-    font-family: 'Latin Modern Mono', monospace;
+    font-family: monospace;
     font-size: 0.8rem;
 }
 
