@@ -6,7 +6,6 @@ Tags:
 - music
 date: 2017-01-02T19:05:13+01:00
 title: Hiding in the Shadow of Neptune
-draft: false
 ---
 
 <div style="width:640px;margin-left:auto;margin-right:auto;">
