@@ -131,7 +131,7 @@ body {
     font-family: 'Dosis', sans-serif;
 }
 
-#alpha {
+header {
     position: absolute;
     top: 0px;
     background: #ecf0f1;
@@ -192,11 +192,11 @@ body {
 
 h2 {
     margin-top: 1rem;
-    line-height: 1.8rem;
+    line-height: 1.8em;
 }
 
 .post h1 {
-    font-size: 1.2rem;
+    font-size: 1.2em;
     color: #2f2f2f;
 }
 
@@ -221,30 +221,54 @@ a:hover {
 }
 
 .postdate {
-    margin-top: -0.6rem;
-    margin-bottom: 2rem;
-    font-size: 0.8rem;
-    padding-left: 1rem;
+    margin-top: -0.6em;
+    margin-bottom: 2em;
+    font-size: 0.8em;
+    padding-left: 1em;
     color: #a8a7b3;
     border-top: 1px solid #ddd;
 }
 
 pre {
     font-family: 'Dosis', sans-serif;
-    font-size: 0.8rem;
-    line-height: 1.2rem;
-    margin-top: 2rem;
-    margin-left: 1.2rem;
-    padding-left: 1rem;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    margin-top: 2em;
+    margin-left: 1.2em;
+    padding-left: 1em;
     border-left: 1px solid #dfdfdf;
 }
 
 code {
     font-family: monospace;
-    font-size: 0.8rem;
+    font-size: 0.8em;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 500px) {
+    header {
+        width: 100%;
+    }
+    
+    #omega {
+        width: 282px;
+    }
+    #body-text {
+        width: 282px;
+    }
+    pre {
+        margin-left: 0rem;
+    }
+    body {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (min-width: 501px) and (max-width: 620px) {
+    header {
+        width: 100%;
+    }
+    
     #omega {
         width: 352px;
     }
@@ -257,6 +281,10 @@ code {
 }
 
 @media screen and (min-width: 1200px) {
+    header {
+        width: 100%;
+    }
+
     #omega {
         width: 800px;
     }
@@ -319,14 +347,15 @@ form {
 }
 
 .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
-label {
+.form-group small {
+    font-size: 0.6em;
+    text-align: center;
+    width: 100%;
     display: inline-block;
-    max-width: 100%;
-    margin-bottom: 5px;
-    font-weight: 700;
+    font-family: monospace;
 }
 
 .pw-container {
@@ -345,8 +374,7 @@ label {
     left: 15px;
     font-size: 0.8em;
     color: #f9690e;
-    font-family: FontAwesome;
-    content: "\f13e";
+    content: "\2234";
 }
 
 .form-control {
@@ -355,7 +383,7 @@ label {
     height: 34px;
     padding: 6px 12px;
     font-size: 0.9em;
-    line-height: 1.42857143;
+    line-height: 1.2em;
     color: #555;
     background-color: #fff;
     background-image: none;
@@ -374,18 +402,21 @@ label {
 
 .postlist {
     list-style: none;
-    font-size: 1.2rem;
+    font-size: 1em;
+}
+
+.postlist {
+    padding: 0px;
 }
 
 .postlist .entry {
     display: inline-block;
     width: 100%;
-    border-bottom: 1px solid #ddd;
-    padding: 1px;
+    padding: 4px;
 }
 
 .postlist .date {
-    font-size: 0.8rem;
+    font-size: 0.6em;
     color: #a8a7b3;
 }
 
