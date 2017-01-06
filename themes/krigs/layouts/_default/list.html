@@ -1,10 +1,8 @@
 {{ partial "header.html" . }}
-
 <div id="body-text">
-  <div class="fa-ul postlist">
+  <div class="postlist">
     {{ range .Data.Pages }}
     <div class="postlist entry">
-      <i class="fa-li fa fa-caret-right muted"></i>
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       <div class="date-right">
         <time class="date">{{ .Date.Format "Jan 2, 2006" }}</time>
@@ -13,5 +11,4 @@
     {{ end }}
   </div>
 </div>
-
 {{ partial "footer.html" . }}
