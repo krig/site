@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis:500&subset=latin-ext');
+@import url('http://overpass-30e2.kxcdn.com/overpass.css');
 
 body {
   font-size: 100%;
@@ -128,7 +128,7 @@ body {
     margin: 0px;
     background: #F5F5F5;
     color: #434244;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Overpass', sans-serif;
 }
 
 header {
@@ -150,7 +150,7 @@ header {
 }
 
 #omega h1 {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Overpass', sans-serif;
     font-size: 3em;
 }
 
@@ -230,7 +230,7 @@ a:hover {
 }
 
 pre {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Overpass', sans-serif;
     font-size: 0.8em;
     line-height: 1.2em;
     margin-top: 2em;
