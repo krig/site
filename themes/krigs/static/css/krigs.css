@@ -182,7 +182,7 @@ header {
 }
 
 #omega a {
-    color: #ffffff;
+    color: #999;
 }
 
 #omega a:hover {
@@ -201,18 +201,18 @@ h2 {
 }
 
 a {
-    color: #E35C2F;
+    color: #555;
     text-decoration: none;
 }
 a:active  {
-    color: #41D6B3;      
+    color: #ff4400;
 }
 a:visited {
-    color: #E35C2F;
+    color: #444444;
 }
 a:hover {
-    color: #E35C2F;      
-    border-bottom: 2px dashed #E35C2F;
+    color: #000;      
+    border-bottom: 1px solid #ccc;
 }
 
 .parahead {
