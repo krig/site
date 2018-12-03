@@ -1,8 +1,8 @@
-baseurl = "http://krig.github.io/"
+baseurl = "http://6510.nu/"
 title = "krig"
 languageCode = "en-us"
 MetaDataFormat = "yaml"
-copyright = "Copyright (c) 2017, Kristoffer Gr&ouml;nlund"
+copyright = "Copyright (c) 2018, Kristoffer Gr&ouml;nlund"
 
 [author]
 name = "Kristoffer Gr&ouml;nlund"

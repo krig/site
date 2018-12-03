@@ -13,14 +13,4 @@ you.
 If, after all, you do know me, it may be from such features as
 
 * [Kodsnack](http://kodsnack.se) - A coding podcast in swedish
-* [crmsh](https://crmsh.github.io) - A cluster command line shell
-* [Hawk](https://hawk-ui.github.io) - A cluster web interface
-* [World in Conflict](https://en.wikipedia.org/wiki/World_in_Conflict) - A real-time strategy game
-* [github.com/krig](https://github.com/krig) - Other random source code I've put on Github
-
-This site is not a regular blog. I have tried to make that happen, but
-let's face it. Blogs are dead.
-
-I do have a [tumblr](http://koru.se) which I update roughly once per
-year, and a [twitter](https://twitter.com/iskrig) account which I
-can't seem to get rid of.
+* [github.com/krig](https://github.com/krig) - Random source code I've put on GitHub
