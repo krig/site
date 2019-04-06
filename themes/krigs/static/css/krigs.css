@@ -1,7 +1,7 @@
-@import url('//overpass-30e2.kxcdn.com/overpass.css');
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,700&subset=latin-ext');
 
 body {
-  font-size: 100%;
+  font-size: 24px;
 }
 
 body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
@@ -128,7 +128,7 @@ body {
     margin: 0px;
     background: #F5F5F5;
     color: #434244;
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 header {
@@ -150,7 +150,7 @@ header {
 }
 
 #omega h1 {
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 6em;
 }
 
@@ -230,7 +230,7 @@ a:hover {
 }
 
 pre {
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 0.8em;
     line-height: 1.2em;
     margin-top: 2em;
