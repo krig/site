@@ -13,5 +13,7 @@ title: Let's LISP like it's 1959 (Rev. II)
 
 FOSS North, 2019. Second revision of this talk.
 
-I tried to address some of the comments I received after presenting at linux.conf.au earlier the same year. Possibly not entirely successful.
+It's not exactly the same talk as at LCA, in part because I am terrible at sticking to a script but also because I rewrote
+at least half of the presentation, expanding on some parts and trying to actually get to the part where I implement a lisp
+interpreter.
 

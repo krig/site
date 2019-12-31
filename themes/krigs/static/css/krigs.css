@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik:400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
 
 body {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
@@ -128,7 +128,7 @@ body {
     margin: 0px;
     background: #F5F5F5;
     color: #434244;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Inconsolata', monospace;
 }
 
 header {
@@ -150,7 +150,7 @@ header {
 }
 
 #omega h1 {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-size: 6em;
 }
 
@@ -201,17 +201,18 @@ h2 {
 }
 
 a {
-    color: #555;
+    color: #6D214F;
     text-decoration: none;
 }
 a:active  {
-    color: #ff4400;
+    color: #6D214F;
+    border-bottom: 1px dashed #ccc;
 }
 a:visited {
-    color: #444444;
+    color: #B33771;
 }
 a:hover {
-    color: #000;      
+    color: #1B9CFC;      
     border-bottom: 1px solid #ccc;
 }
 
@@ -223,14 +224,14 @@ a:hover {
 .postdate {
     margin-top: -0.6em;
     margin-bottom: 2em;
-    font-size: 0.8em;
+    font-size: 0.9em;
     padding-left: 1em;
     color: #a8a7b3;
     border-top: 1px solid #ddd;
 }
 
 pre {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-size: 0.8em;
     line-height: 1.2em;
     margin-top: 2em;
@@ -416,7 +417,7 @@ form {
 }
 
 .postlist .date {
-    font-size: 0.6em;
+    font-size: 0.9em;
     color: #a8a7b3;
 }
 
