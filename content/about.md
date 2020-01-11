@@ -22,3 +22,7 @@ Here are some links to other things I've made or been involved in:
 * [Kodsnack](http://kodsnack.se) - A coding podcast in swedish
 * [github.com/krig](https://github.com/krig) - Random source code I've put on GitHub
 * [soundcloud.com/kodkrig](https://soundcloud.com/kodkrig) - Random noises I've put on Soundcloud
+* [@antikristoffer](https://twitter.com/antikristoffer) - Mostly retweets of climate news
+* [@krig@mastodon.acc.umu.se](https://mastodon.acc.umu.se/@krig) - Same as above, but federated
+* [instagram.com/iskrig](https://instagram.com/iskrig) - Pictures of cats
+
