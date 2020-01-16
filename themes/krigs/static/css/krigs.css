@@ -138,6 +138,7 @@ header {
     margin-top: 0px;
     padding-top: 0px;
     width: 100%;
+    /*background-image: radial-gradient( circle 919px at 1.7% 6.1%,  rgba(41,58,76,1) 0%, rgba(40,171,226,1) 100.2% );*/
 }
 
 #omega {
@@ -150,8 +151,8 @@ header {
 }
 
 #omega h1 {
-    font-family: 'Inconsolata', monospace;
-    font-size: 6em;
+    /*font-family: 'Inconsolata', monospace;
+    font-size: 6em;*/
 }
 
 #container {
@@ -183,6 +184,7 @@ header {
 
 #omega a {
     color: #999;
+
 }
 
 #omega a:hover {
