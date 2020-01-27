@@ -12,4 +12,9 @@ The other day I presented Rook and Ceph at [OpenInfra Forum #8](https://www.meet
 
 I was told that there's going to be video published of the talk eventually, but
 here are the slides as [PDF](/Intro-to-Rook-2020.pdf) for anyone who might be
-interested.
+interested, and there's a web version [here](/intro-to-rook/).
+
+I used [reveal.js](https://github.com/hakimel/reveal.js/) to make the
+presentation, if you are interested you can get the sources
+[here](https://github.com/krig/intro-to-rook/).
+
